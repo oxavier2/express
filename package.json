@@ -1,0 +1,34 @@
+{
+  "name": "express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "csv": "^1.1.0",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "express-static": "^1.0.3",
+    "fs": "0.0.1-security",
+    "geolocation": "^0.2.0",
+    "google-places": "0.0.2",
+    "googleplaces": "^0.6.0",
+    "materialize-css": "^0.97.7",
+    "morgan": "^1.7.0",
+    "multer": "^1.2.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2",
+    "supertest": "^2.0.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
